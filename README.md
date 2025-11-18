@@ -1,39 +1,30 @@
-# product-control-system
-Título do projeto
+📌 Descrição do Projeto
 
-# PyInventory – Sistema CRUD com Python
+O PyInventory é um sistema de gerenciamento de inventário que permite controlar produtos de forma simples e eficiente.
+Com ele, você pode listar, adicionar, editar e excluir produtos diretamente via scripts Python ou terminal.
 
+O objetivo do projeto é facilitar o gerenciamento de estoque para pequenas empresas ou projetos pessoais, proporcionando praticidade sem depender de sistemas complexos.
 
-Descrição do projeto
+💻 Funcionalidades
 
-Para que ele serve, tecnologias usadas, objetivo
+Listar todos os produtos cadastrados
 
-Funcionalidades
+Adicionar novos produtos
 
-Listar, adicionar, editar, excluir produtos, interface gráfica
+Editar informações de produtos existentes
 
-Arquitetura do projeto / Estrutura de pastas
+Excluir produtos do sistema
 
-database.py
+Funciona totalmente via terminal ou scripts Python
 
-crud.py
+🛠 Tecnologias Utilizadas
 
-frontend.py
+Python 3.x – Linguagem de programação principal
 
-Como executar o projeto
+Tkinter – Biblioteca para interface gráfica
 
-Comandos para rodar o Python e abrir a GUI
+SQLite – Banco de dados leve e integrado
 
-Informações adicionais
+Controller/CRUD – Arquivos Python (controller.py e crud.py) para gerenciar operações do banco
 
-Sobre o banco de dados
-
-Tecnologias utilizadas
-
-Licença, contribuição, objetivos
-
-Extras opcionais
-
-Prints da interface
-
-GIF mostrando a aplicação funcionando
+Opcional: você também pode mencionar ferramentas de desenvolvimento, como VS Code, Git/GitHub, se quiser mostrar o ambiente de trabalho.
