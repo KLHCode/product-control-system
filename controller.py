@@ -15,4 +15,5 @@ class ProdutoController:
         self.service.atualizar_produto(id, nome, preco, quantidade)
 
     def deletar(self, id):
-        self.service.deletar(id)
+        self.service.deletar_produto(id)
+    
