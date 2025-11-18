@@ -1,18 +1,19 @@
-import sqlite3
+from service import ProdutoService
 
-def get_connection():
-    return sqlite3.connect("produtos.db")
+class ProdutoController:
 
-def init_db():
-    conn = get_connection()
-    cursor = conn.cursor()
-    cursor.execute("""
-    CREATE TABLE IF NOT EXISTS produtos (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        nome TEXT NOT NULL,
-        preco REAL NOT NULL,
-        quantidade INTEGER NOT NULL
-    );
-    """)
-    conn.commit()
-    conn.close()
+    def __init__(self):
+        self.service = ProdutoService()
+
+    def adicionar(self, nome, preco, quantidade):
+        self.service.criar_produto(nome, preco, quantidade)
+
+    def listar(self):
+        return self.service.listar_produtos()
+
+    def atualizar(self, id, nome, preco, quantidade):
+        self.service.atualizar_produto(id, nome, preco, quantidade)
+
+    def deletar(self, id):
+        self.service.deletar_produto(id)
+    
