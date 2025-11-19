@@ -30,4 +30,4 @@ SQLite – Banco de dados leve e integrado
 
 Controller/CRUD – Arquivos Python (controller.py e crud.py) para gerenciar operações do banco
 
-Opcional: você também pode mencionar ferramentas de desenvolvimento, como VS Code, Git/GitHub, se quiser mostrar o ambiente de trabalho.
+
