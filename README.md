@@ -3,7 +3,7 @@
 Criado por Leonardo Henrique Soares Da Silva e Ryan Sousa Pinho 
 
 
-O PyInventory é um sistema de gerenciamento de inventário que permite controlar produtos de forma simples e eficiente.
+O Cadastro de Produtos é um sistema de gerenciamento de inventário que permite controlar produtos de forma simples e eficiente.
 Com ele, você pode listar, adicionar, editar e excluir produtos diretamente via scripts Python ou terminal.
 
 O objetivo do projeto é facilitar o gerenciamento de estoque para pequenas empresas ou projetos pessoais, proporcionando praticidade sem depender de sistemas complexos.
