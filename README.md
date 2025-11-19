@@ -1,5 +1,8 @@
 📌 Descrição do Projeto
+
 Criado por Leonardo Henrique Soares Da Silva e Ryan Sousa Pinho 
+
+
 O PyInventory é um sistema de gerenciamento de inventário que permite controlar produtos de forma simples e eficiente.
 Com ele, você pode listar, adicionar, editar e excluir produtos diretamente via scripts Python ou terminal.
 
